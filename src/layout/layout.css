@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 812px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  border: 0.5px grey solid;
+  background-color: white;
+}
+
+.container .header{
+  width: inherit;
+  height: 196px;
+  margin-top: -53px;
+  /* color: #39561A; */
+  background-color: #39561A;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  /* color: white; */
+}
